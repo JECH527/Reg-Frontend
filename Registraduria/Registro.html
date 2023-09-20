@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="/CSS/styleRegistro.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro</h2>
+        <img class="profile-image" src="/img/logo.png" alt="logo">
+        <form action="procesar_registro.php" method="post">
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="text" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+            <input type="submit" class="btn-submit" value="Registrarse">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

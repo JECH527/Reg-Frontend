@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del pie de página */
+.pie-de-pagina {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.pie-de-pagina .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pie-de-pagina h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pie-de-pagina p {
+    margin: 0;
+}
+
+.redes-sociales ul {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociales li {
+    margin: 5px 0;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociales a:hover {
+    text-decoration: underline;
+}

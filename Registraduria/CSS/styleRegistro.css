@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Inter', Arial, sans-serif; 
+    background-color: #212222; 
+    color: #FFFFFF; 
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #212222;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    background-color: #1E1E1E;
+    color: #cfcfcf;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+    margin-bottom: 20px;
+}
+
+
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00514E; 
+    color: #FFFFFF; 
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
